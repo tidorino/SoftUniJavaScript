@@ -1,0 +1,10 @@
+function yard(input) {
+    let sizeForLandshaft = input[0];
+    let priceOfSquareMeter = 7.61;
+    let totalPrice = priceOfSquareMeter * sizeForLandshaft;
+    let discount = totalPrice * 0.18;
+    let finalPrice = totalPrice - discount;
+    console.log(`The final price is: ${finalPrice} lv.`);
+    console.log(`The discount is: ${discount} lv.`);
+}
+yard(["550"])

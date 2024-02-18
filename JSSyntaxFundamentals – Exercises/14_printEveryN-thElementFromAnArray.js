@@ -1,0 +1,3 @@
+function printElFromArray(arr, number) {
+    
+}

@@ -10,7 +10,8 @@ function sortNumbers(arr) {
             resultArray.push(sortArray.pop());      
         }
     }
-    console.log(resultArray.join(' '));
+    
+    return resultArray;
     
 }
 
